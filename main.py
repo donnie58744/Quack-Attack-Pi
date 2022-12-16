@@ -335,18 +335,21 @@ def command():
 
             
 def sensor():
-    if GPIO.input(sensorPin)==GPIO.HIGH and active == True:
-        GPIO.output(redLight,GPIO.HIGH)
-        
-        slack_data = {'text': "INTRUDER!"}
-        response = requests.post(
-            webhook_url, data =json.dumps(slack_data),
-            headers={'Content-Type': 'application/json'}
-        )
-        
-        time.sleep(3)
-        
-        GPIO.output(redLight, GPIO.LOW)
+    try:
+        if GPIO.input(sensorPin)==GPIO.HIGH and active == True:
+            GPIO.output(redLight,GPIO.HIGH)
+            
+            slack_data = {'text': "INTRUDER!"}
+            response = requests.post(
+                webhook_url, data =json.dumps(slack_data),
+                headers={'Content-Type': 'application/json'}
+            )
+            
+            time.sleep(3)
+            
+            GPIO.output(redLight, GPIO.LOW)
+    except Exception as e:
+        prRed(f'Sensor Error: {e}')
 
 def destroy():
     GPIO.cleanup()                      # Release all GPIO
