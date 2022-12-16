@@ -244,10 +244,11 @@ def getAlarmState():
                     time.sleep(3)
                     sendResponse(username,password,'send','')
                 
-                time.sleep(1)
+                time.sleep(3)
             
             except Exception as e:
                 prRed(' ------ Get Alarm State Fail! ' +str(e) + ' ------ ')
+                time.sleep(10)
                 pass
         
 
