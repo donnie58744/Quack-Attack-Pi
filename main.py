@@ -109,6 +109,7 @@ def armToggle():
     
     if count == 1:
         prYellow('Disarming...')
+        GPIO.output(blueLight, GPIO.LOW)
         active = not active
         sendAlarmState('Disarm')
         GPIO.output(yellowLight, GPIO.HIGH)
@@ -118,6 +119,7 @@ def armToggle():
         active = not active
         sendAlarmState('Arm')
         GPIO.output(yellowLight, GPIO.LOW)
+        GPIO.output(blueLight, GPIO.HIGH)
         count = 0
         responseLock +=1
 
@@ -132,6 +134,8 @@ def btns():
 
 
 def start():
+    if (active):
+        GPIO.output(blueLight, GPIO.HIGH)
     while True: 
         btns()
         sensor()
