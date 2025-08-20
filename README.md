@@ -17,7 +17,7 @@
 
 - #### [QuackyOS Remote Control](#QuackyOS-Remote-Control-1)
 
-  <img src="README_IMGS/QuackAttack-QuackyOS-UI.png" alt="QuackAttack-QuackyOS-UI" style="zoom:67%;" />
+  <img src="README_IMGS/QuackAttack-QuackyOS-UI.png" width="500" title="QuackAttack-QuackyOS-UI" alt="QuackAttack-QuackyOS-UI"/>
   
 - #### [Slack Messaging Alerts](#slack-messaging-alerts-1)
 
