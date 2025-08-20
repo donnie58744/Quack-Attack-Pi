@@ -14,7 +14,7 @@
 
 ### Features
 
-- #### [QuackyOS](https://www.quackyos.com/?openWindow=QuackAttack) Remote Control
+- #### [QuackyOS Remote Control](#QuackyOS-Remote-Control-1)
 
   <img src="README_IMGS/QuackAttack-QuackyOS-UI.png" alt="QuackAttack-QuackyOS-UI" style="zoom:67%;" />
   
@@ -27,40 +27,48 @@
 ### Setup
 
 - #### Electronics
-	- Raspberry PI
-	- PIR Sensor Model #: HC-SR501
-	- 4 LEDs
-	- 2 Buttons
+  - Raspberry PI
+  - PIR Sensor Model #: HC-SR501
+  - 4 LEDs
+  - 2 Buttons
 
 - #### Py Library Requirements:
 
-	```
-	pip install RPi.GPIO
-	```
+  ```
+  pip install RPi.GPIO
+  ```
 
-	```
-	pip install mfrc522
-	```
+  ```
+  pip install mfrc522
+  ```
 
 - #### Raspberry PI
 
-	**(GPIO pins are in board mode)**
+  **(GPIO pins are in board mode)**
 
-	- Green Light Pin: 40
-	- Blue Light Pin: 31
-	- Yellow Light Pin: 16
-	- Red Light Pin: 12
-	- Green Button Pin: 35
-	- Yellow Button Pin: 37
-	- Sensor Data Pin: 11 **You might need to adjust the IR Sensor Sensitivity and Time Delay**
+  - Green Light Pin: 40
+  - Blue Light Pin: 31
+  - Yellow Light Pin: 16
+  - Red Light Pin: 12
+  - Green Button Pin: 35
+  - Yellow Button Pin: 37
+  - Sensor Data Pin: 11 **You might need to adjust the IR Sensor Sensitivity and Time Delay**
 
 - #### Slack Messaging Alerts
 
   - Create Slack Webhook, [Heres How](https://api.slack.com/messaging/webhooks)
 
   - Edit the python file and change the webhookUrl varible to your slack webhook
-  
+
   - Now you can recive alerts from the Alarm on Slack!
+
+- #### QuackyOS Remote Control
+
+  - Create an account if you dont already have one at [QuackyOS](https://QuackyOS.com)
+  - Change main.py username and password varibles to your login info
+  - When the main.py script is ran it will create a random serial number, you will then see the number on the [QuackAttack](https://quackyos.com?openWindow=QuackAttack) dashboard
+  - Now you can control your alarm remotely!
+
 
 
 ### Run
