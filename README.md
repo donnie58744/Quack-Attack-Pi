@@ -87,7 +87,7 @@
 
 ### Contributing
 
-- Donovan Whysong (Afghan Coder) - Head Of Programming
+- Donovan Whysong ([Afghan Coder](https://github.com/donnie58744)) - Head Of Programming
 - Erik Whysong - Head Of Engineering
 
 ### License
