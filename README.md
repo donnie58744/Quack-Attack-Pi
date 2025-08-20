@@ -7,7 +7,7 @@
 - [Features](#features)
 - [Circuit](#circuit)
 - [Setup](#setup)
-- [How To Run](#how to run)
+- [Run](#run)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](https://github.com/donnie58744/Quack-Attack-Pi/blob/main/LICENSE)
@@ -18,7 +18,7 @@
 
   <img src="README_IMGS/QuackAttack-QuackyOS-UI.png" alt="QuackAttack-QuackyOS-UI" style="zoom:67%;" />
   
-- #### [Slack Messaging Alerts](#slack messaging alerts)
+- #### [Slack Messaging Alerts](#slack-messaging-alerts)
 
 ### Circuit
 
@@ -63,7 +63,7 @@
   - Now you can recive alerts from the Alarm on Slack!
 
 
-### How To Run
+### Run
 
 ```python3 main.py```
 
