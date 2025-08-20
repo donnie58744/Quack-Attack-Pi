@@ -5,6 +5,7 @@
 
 ## Table of Contents
 - [Features](#features)
+- [Compatibility](#compatibility)
 - [Circuit](#circuit)
 - [Setup](#setup)
 - [Run](#run)
@@ -19,6 +20,10 @@
   <img src="README_IMGS/QuackAttack-QuackyOS-UI.png" alt="QuackAttack-QuackyOS-UI" style="zoom:67%;" />
   
 - #### [Slack Messaging Alerts](#slack-messaging-alerts-1)
+
+### Compatibility
+
+- Raspberry PI
 
 ### Circuit
 
