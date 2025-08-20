@@ -66,7 +66,7 @@
 
   - Create an account if you dont already have one at [QuackyOS](https://QuackyOS.com)
   - Change main.py username and password varibles to your login info
-  - When the main.py script is ran it will create a random serial number, you will then see the number on the [QuackAttack](https://quackyos.com?openWindow=QuackAttack) dashboard
+  - When the main.py script is ran it will create a random serial number, you will then see the number on the [Quack Attack](https://quackyos.com?openWindow=QuackAttack) dashboard
   - Now you can control your alarm remotely!
 
 
