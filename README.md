@@ -90,9 +90,11 @@
 - #### Lights
 
   - Green Light
-    - Timer has started and will cycle through all the lights twice
+    - Timer has started and will cycle through all the lights(except red) twice
   - Yellow Light
     - Alarm is On/Off
+  - Blue Ligh
+    - Used for light cycle
   - Red Light
     - Motion has been detected
 
