@@ -1,5 +1,5 @@
 # <img src="README_IMGS/icon.png" alt="icon" height="100" />Quack Attack
-*An alarm system that when motion is detected it messages you on slack and can be controlled remotely through [QuackyOS](https://quackyos.com)*
+*An alarm system that when motion is detected it messages you on slack and can be controlled remotely through [QuackyOS](https://quackyos.com?openWindow=QuackAttack)*
 
 -----
 
